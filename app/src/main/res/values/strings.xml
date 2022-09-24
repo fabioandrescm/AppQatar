@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">AppQatar</string>
+
+    <string name="eq0_name">Qatar (51)</string>
+    <string name="eq1_name">Alemania (12)</string>
+    <string name="eq2_name">Dinamarca (11)</string>
+    <string name="eq3_name">Brasil (1)</string>
+    <string name="eq4_name">Francia (3)</string>
+    <string name="eq5_name">Bélgica (2)</string>
+    <string name="eq6_name">Croacia (16)</string>
+    <string name="eq7_name">España (7)</string>
+    <string name="eq8_name">Serbia (25)</string>
+    <string name="eq9_name">Inglaterra (5)</string>
+    <string name="eq10_name">Suiza (14)</string>
+    <string name="eq11_name">Países Bajos (10)</string>
+    <string name="eq12_name">Argentina (4)</string>
+    <string name="eq13_name">Irán (21)</string>
+    <string name="eq14_name">Corea del Sur (29)</string>
+    <string name="eq15_name">Japón (23)</string>
+    <string name="eq16_name">Arabia Saudita (49)</string>
+    <string name="eq17_name">Ecuador (46)</string>
+    <string name="eq18_name">Uruguay (13)</string>
+    <string name="eq19_name">Canadá (38)</string>
+    <string name="eq20_name">Ghana (60)</string>
+    <string name="eq21_name">Senegal (20)</string>
+    <string name="eq22_name">Marruecos (24)</string>
+    <string name="eq23_name">Túnez (35)</string>
+    <string name="eq24_name">Portugal (8)</string>
+    <string name="eq25_name">Polonia (26)</string>
+    <string name="eq26_name">Camerún (37)</string>
+    <string name="eq27_name">México (9)</string>
+    <string name="eq28_name">Estados Unidos (15)</string>
+    <string name="eq29_name">Gales (18)</string>
+    <string name="eq30_name">Australia (42)</string>
+    <string name="eq31_name">Costa Rica (31)</string>
+
+    <!--    region-->
+
+    <string name="re0_name">Asia</string>
+    <string name="re1_name">Europa</string>
+    <string name="re2_name">Europa</string>
+    <string name="re3_name">Sudamérica</string>
+    <string name="re4_name">Europa</string>
+    <string name="re5_name">Europa</string>
+    <string name="re6_name">Europa</string>
+    <string name="re7_name">Europa</string>
+    <string name="re8_name">Europa</string>
+    <string name="re9_name">Europa</string>
+    <string name="re10_name">Europa</string>
+    <string name="re11_name">Europa</string>
+    <string name="re12_name">Sudamérica</string>
+    <string name="re13_name">Asia</string>
+    <string name="re14_name">Asia</string>
+    <string name="re15_name">Asia</string>
+    <string name="re16_name">Asia</string>
+    <string name="re17_name">Sudamérica</string>
+    <string name="re18_name">Sudamérica</string>
+    <string name="re19_name">Concacaf</string>
+    <string name="re20_name">África</string>
+    <string name="re21_name">África</string>
+    <string name="re22_name">África</string>
+    <string name="re23_name">África</string>
+    <string name="re24_name">Europa</string>
+    <string name="re25_name">Europa</string>
+    <string name="re26_name">África</string>
+    <string name="re27_name">Concacaf</string>
+    <string name="re28_name">Concacaf</string>
+    <string name="re29_name">Europa</string>
+    <string name="re30_name">Asia</string>
+    <string name="re31_name">Concacaf</string>
+
+    <!--clasificacion-->
+
+    <string name="cla0_name">2 Dic. 2010</string>
+    <string name="cla1_name">11 Oct. 2021</string>
+    <string name="cla2_name">12 Oct. 2021</string>
+    <string name="cla3_name">11 Nov. 2021</string>
+    <string name="cla4_name">13 Nov. 2021</string>
+    <string name="cla5_name">13 Nov. 2021</string>
+    <string name="cla6_name">14 Nov. 2021</string>
+    <string name="cla7_name">14 Nov. 2021</string>
+    <string name="cla8_name">14 Nov. 2021</string>
+    <string name="cla9_name">15 Nov. 2021</string>
+    <string name="cla10_name">15 Nov. 2021</string>
+    <string name="cla11_name">16 Nov. 2021</string>
+    <string name="cla12_name">16 Nov. 2021</string>
+    <string name="cla13_name">27 Ene. 2022</string>
+    <string name="cla14_name">1 Feb. 2022</string>
+    <string name="cla15_name">24 Mar. 2022</string>
+    <string name="cla16_name">24 Mar. 2022</string>
+    <string name="cla17_name">24 Mar. 2022</string>
+    <string name="cla18_name">24 Mar. 2022</string>
+    <string name="cla19_name">27 Mar. 2022</string>
+    <string name="cla20_name">29 Mar. 2022</string>
+    <string name="cla21_name">29 Mar. 2022</string>
+    <string name="cla22_name">29 Mar. 2022</string>
+    <string name="cla23_name">29 Mar. 2022</string>
+    <string name="cla24_name">29 Mar. 2022</string>
+    <string name="cla25_name">29 Mar. 2022</string>
+    <string name="cla26_name">29 Mar. 2022</string>
+    <string name="cla27_name">30 Mar. 2022</string>
+    <string name="cla28_name">30 Mar. 2022</string>
+    <string name="cla29_name">05 Jun. 2022</string>
+    <string name="cla30_name">13 Jun. 2022</string>
+    <string name="cla31_name">14 Jun. 2022</string>
+
+
+    <!--como se clasifico-->
+
+    <string name="pos0_name">Anfitrión</string>
+    <string name="pos1_name">1ro. Grupo J</string>
+    <string name="pos2_name">1ro. Grupo F</string>
+    <string name="pos3_name">Top 4</string>
+    <string name="pos4_name">1ro. Grupo D</string>
+    <string name="pos5_name">1ro. Grupo E</string>
+    <string name="pos6_name">1ro. Grupo H</string>
+    <string name="pos7_name">1ro. Grupo B</string>
+    <string name="pos8_name">1ro. Grupo A</string>
+    <string name="pos9_name">1ro. Grupo I</string>
+    <string name="pos10_name">1ro. Grupo C</string>
+    <string name="pos11_name">1ro. Grupo G</string>
+    <string name="pos12_name">Top 4</string>
+    <string name="pos13_name">Top 2 Gr. A</string>
+    <string name="pos14_name">Top 2 Gr. A</string>
+    <string name="pos15_name">Top 2 Gr. B</string>
+    <string name="pos16_name">Top 2 Gr. B</string>
+    <string name="pos17_name">Top 4</string>
+    <string name="pos18_name">Top 4</string>
+    <string name="pos19_name">Top 3</string>
+    <string name="pos20_name">Playoffs de África</string>
+    <string name="pos21_name">Playoffs de África</string>
+    <string name="pos22_name">Playoffs de África</string>
+    <string name="pos23_name">Playoffs de África</string>
+    <string name="pos24_name">Playoffs de Europa</string>
+    <string name="pos25_name">Playoffs de Europa</string>
+    <string name="pos26_name">Playoffs de África</string>
+    <string name="pos27_name">Top 3</string>
+    <string name="pos28_name">Top 3</string>
+    <string name="pos29_name">Repechaje</string>
+    <string name="pos30_name">Repechaje</string>
+    <string name="pos31_name">Repechaje</string>
+
+
+
+
+</resources>
