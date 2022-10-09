@@ -2,47 +2,41 @@ package com.fabio.appqatar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.fabio.appqatar.databinding.ActivityMainBinding
+import com.fabio.appqatar.fragments.EquiposFragment
+import com.fabio.appqatar.fragments.ExtraFragment
+import com.fabio.appqatar.fragments.FixtureFragment
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
-    lateinit var datos: ArrayList<Equipos>
-    lateinit var adaptador: RecyclerView.Adapter<*>
-    lateinit var layoutManager: RecyclerView.LayoutManager
+    lateinit var equipoFragment: EquiposFragment
+    lateinit var extraFragment: ExtraFragment
+    lateinit var fixtureFragment: FixtureFragment
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-        //layoutManager = GridLayoutManager(this, 2)
-        binding.rvContenido.layoutManager = layoutManager
+        equipoFragment = EquiposFragment()
+        extraFragment = ExtraFragment()
+        fixtureFragment = FixtureFragment()
 
-        llenarPokemones()
+        showFragment(equipoFragment)
 
-        adaptador = RVAdapter(this, datos)
-        binding.rvContenido.adapter = adaptador
-    }
-    fun llenarPokemones() {
-        datos = ArrayList()
-        val arrayNombres = resources.getStringArray(R.array.nombres)
-        val arrayImagenes = resources.obtainTypedArray(R.array.imagenes)
-        val arrayregion = resources.getStringArray(R.array.region)
-        val arrayclasificacion = resources.getStringArray(R.array.posicionClasificacion)
-        for(i in arrayNombres.indices) {
-            val equipo = Equipos()
-            val arr = arrayNombres[i].split(" ").toTypedArray()
-            equipo.nombre = "" + arr.get(0)
-            equipo.posicion = "Ranking FIFA: " + arr.get(1)
-            equipo.imagen = arrayImagenes.getResourceId(i, -1)
-            equipo.region = arrayregion[i]
-            equipo.clasificacion = arrayclasificacion[i]
-            datos.add(equipo)
+        binding.bnvMenu.setOnItemSelectedListener { item ->
+            when(item.itemId) {
+                R.id.menuHome -> showFragment(equipoFragment)
+                R.id.menuFix -> showFragment(fixtureFragment)
+                R.id.menuExtra -> showFragment(extraFragment)
+            }
+            return@setOnItemSelectedListener true
         }
+
+    }
+    fun showFragment(frag: Fragment) {
+        supportFragmentManager.beginTransaction().replace(R.id.frameContent, frag).commit()
     }
 
 }

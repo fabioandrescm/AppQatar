@@ -210,6 +210,41 @@
         <item>@string/eq31_name</item>
     </string-array>
 
+    <string-array name="location">
+        <item>@string/lo0_name</item>
+        <item>@string/lo1_name</item>
+        <item>@string/lo2_name</item>
+        <item>@string/lo3_name</item>
+        <item>@string/lo4_name</item>
+        <item>@string/lo5_name</item>
+        <item>@string/lo6_name</item>
+        <item>@string/lo7_name</item>
+        <item>@string/lo8_name</item>
+        <item>@string/lo9_name</item>
+        <item>@string/lo10_name</item>
+        <item>@string/lo11_name</item>
+        <item>@string/lo12_name</item>
+        <item>@string/lo13_name</item>
+        <item>@string/lo14_name</item>
+        <item>@string/lo15_name</item>
+        <item>@string/lo16_name</item>
+        <item>@string/lo17_name</item>
+        <item>@string/lo18_name</item>
+        <item>@string/lo19_name</item>
+        <item>@string/lo20_name</item>
+        <item>@string/lo21_name</item>
+        <item>@string/lo22_name</item>
+        <item>@string/lo23_name</item>
+        <item>@string/lo24_name</item>
+        <item>@string/lo25_name</item>
+        <item>@string/lo26_name</item>
+        <item>@string/lo27_name</item>
+        <item>@string/lo28_name</item>
+        <item>@string/lo29_name</item>
+        <item>@string/lo30_name</item>
+        <item>@string/lo31_name</item>
+    </string-array>
+
 
 
     <integer-array name="imagenes">

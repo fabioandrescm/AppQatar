@@ -8,4 +8,6 @@ class Equipos : Serializable {
     var imagen = 0
     var region = ""
     var clasificacion = ""
+    var longitud = ""
+    var latitud = ""
 }

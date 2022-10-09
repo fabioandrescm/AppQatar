@@ -3,10 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2415" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/drawable/borderimage.xml" value="0.127" />
         <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/drawable/borderitem.xml" value="0.25" />
-        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/activity_detalle_equipo.xml" value="0.25" />
-        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/drawable/bordertable.xml" value="0.129" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/drawable/button_style.xml" value="0.2415" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/drawable/degradado.xml" value="0.1" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/drawable/estilo_btn.xml" value="0.2585" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/drawable/fusion.xml" value="0.1" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/activity_detalle_equipo.xml" value="0.14155405405405405" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/activity_grupo.xml" value="0.22" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/activity_maps.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/activity_maps2.xml" value="0.2631578947368421" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/fragment_equipos.xml" value="0.24912280701754386" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/fragment_extra.xml" value="0.16" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/fragment_fixture.xml" value="0.33" />
         <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/layout/item_equipo.xml" value="0.33" />
+        <entry key="..\:/Users/FabioPC/AndroidStudioProjects/AppQatar/app/src/main/res/menu/menu_bnv.xml" value="0.3646153846153846" />
       </map>
     </option>
   </component>

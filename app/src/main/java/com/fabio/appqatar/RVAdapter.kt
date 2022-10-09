@@ -5,10 +5,11 @@ import android.content.Intent
 import android.graphics.Typeface
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.fabio.appqatar.databinding.ItemEquipoBinding
 
-class RVAdapter(val context: Context, private val items: ArrayList<Equipos>) : RecyclerView.Adapter<RVAdapter.ViewHolder>() {
+class RVAdapter(val context: FragmentActivity?, private val items: ArrayList<Equipos>) : RecyclerView.Adapter<RVAdapter.ViewHolder>() {
 
     inner class ViewHolder(val binding: ItemEquipoBinding) : RecyclerView.ViewHolder(binding.root)
 
@@ -28,7 +29,7 @@ class RVAdapter(val context: Context, private val items: ArrayList<Equipos>) : R
                 holder.itemView.setOnClickListener {
                     val intent = Intent(context, DetalleEquipo::class.java)
                     intent.putExtra("equipo", this)
-                    context.startActivity(intent)
+                    context?.startActivity(intent)
                 }
             }
         }

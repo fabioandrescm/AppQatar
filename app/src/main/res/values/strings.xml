@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppQatar</string>
+    <string name="app_name">Qatar 2022</string>
 
     <string name="eq0_name">Qatar (51)</string>
     <string name="eq1_name">Alemania (12)</string>
@@ -12,12 +12,12 @@
     <string name="eq8_name">Serbia (25)</string>
     <string name="eq9_name">Inglaterra (5)</string>
     <string name="eq10_name">Suiza (14)</string>
-    <string name="eq11_name">Países Bajos (10)</string>
+    <string name="eq11_name">Holanda (10)</string>
     <string name="eq12_name">Argentina (4)</string>
     <string name="eq13_name">Irán (21)</string>
-    <string name="eq14_name">Corea del Sur (29)</string>
+    <string name="eq14_name">Corea_del_Sur (29)</string>
     <string name="eq15_name">Japón (23)</string>
-    <string name="eq16_name">Arabia Saudita (49)</string>
+    <string name="eq16_name">Arabia_Saudita (49)</string>
     <string name="eq17_name">Ecuador (46)</string>
     <string name="eq18_name">Uruguay (13)</string>
     <string name="eq19_name">Canadá (38)</string>
@@ -29,10 +29,10 @@
     <string name="eq25_name">Polonia (26)</string>
     <string name="eq26_name">Camerún (37)</string>
     <string name="eq27_name">México (9)</string>
-    <string name="eq28_name">Estados Unidos (15)</string>
+    <string name="eq28_name">EEUU (15)</string>
     <string name="eq29_name">Gales (18)</string>
     <string name="eq30_name">Australia (42)</string>
-    <string name="eq31_name">Costa Rica (31)</string>
+    <string name="eq31_name">Costa_Rica (31)</string>
 
     <!--    region-->
 
@@ -104,6 +104,41 @@
     <string name="cla30_name">13 Jun. 2022</string>
     <string name="cla31_name">14 Jun. 2022</string>
 
+<!--    mapa pais-->
+
+    <string name="lo0_name">25.276009, 51.188782</string>
+    <string name="lo1_name">51.20025812869432, 10.342446775654462</string>
+    <string name="lo2_name">55.55692859574331, 10.158198485779272</string>
+    <string name="lo3_name">-8.119643014490267, -56.59011856720584</string>
+    <string name="lo4_name">46.74731684571009, 2.5739998940516466</string>
+    <string name="lo5_name">50.51445962646425, 4.5090472515429</string>
+    <string name="lo6_name">45.0304665739253, 15.171594339441695</string>
+    <string name="lo7_name">39.52201120651341, -3.8201282421453557</string>
+    <string name="lo8_name">44.133656508266135, 20.712292480925367</string>
+    <string name="lo9_name">54.956204184663704, -2.966433306896132</string>
+    <string name="lo10_name">46.83639629217942, 7.882403260275751</string>
+    <string name="lo11_name">52.21867241779326, 5.223532195926109</string>
+    <string name="lo12_name">-35.06973537627881, -65.5211885415002</string>
+    <string name="lo13_name">32.3836983739919, 54.305343136300635</string>
+    <string name="lo14_name">36.44574985928253, 127.9977904305412</string>
+    <string name="lo15_name">36.45825618964375, 138.3140993642278</string>
+    <string name="lo16_name">23.78272663916441, 43.98789404239718</string>
+    <string name="lo17_name">-1.5622040558549977, -78.3458827637382</string>
+    <string name="lo18_name">-32.85491164234124, -55.90285966669092</string>
+    <string name="lo19_name">60.20886991036574, -111.11718901184081</string>
+    <string name="lo20_name">7.8875979887837975, -1.0112510886333244</string>
+    <string name="lo21_name">14.287254099512339, -14.683364834881507</string>
+    <string name="lo22_name">31.745600982572665, -6.573339531717854</string>
+    <string name="lo23_name">34.143982845879414, 9.426982610402517</string>
+    <string name="lo24_name">40.80371353378634, -9.519851451775317</string>
+    <string name="lo25_name">52.90317687843848, 18.22013114110489</string>
+    <string name="lo26_name">5.753708541347039, 12.632038342983128</string>
+    <string name="lo27_name">23.382156603285488, -103.2760083955922</string>
+    <string name="lo28_name">40.735341143258196, -101.02405594469428</string>
+    <string name="lo29_name">52.03404454865442, -4.226761053316278</string>
+    <string name="lo30_name">-24.631345283865414, 133.4308449412895</string>
+    <string name="lo31_name">10.356906843511277, -84.27313040476646</string>
+
 
     <!--como se clasifico-->
 
@@ -139,6 +174,10 @@
     <string name="pos29_name">Repechaje</string>
     <string name="pos30_name">Repechaje</string>
     <string name="pos31_name">Repechaje</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
 
 
 
